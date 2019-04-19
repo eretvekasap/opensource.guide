@@ -16,6 +16,8 @@ exclude:
   - test
   - vendor
 
+encoding: utf-8
+
 permalink: /:path/
 
 collections:
