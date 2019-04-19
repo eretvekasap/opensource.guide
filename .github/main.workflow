@@ -1,9 +1,10 @@
 workflow "Test" {
   on = "push"
-  resolves = ["test_runner"]
+  resolves = ["Test Runner"]
 }
 
-action "test_runner" {
+action "Test Runner" {
   uses = "./.github/test_runner"
   runs = "script/test"
+  secrets = ["GITHUB_TOKEN"]
 }
