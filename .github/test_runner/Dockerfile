@@ -1,4 +1,3 @@
-FROM ruby:2.6.2
 FROM ruby:2.6@sha256:527b5dcfbe4d1c6d6ca7e44ab496ef9dd5eac4619c8b7bb13c35c568a6115449
 
 LABEL "com.github.actions.name"="Test Runner"
