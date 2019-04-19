@@ -6,5 +6,4 @@ workflow "Test" {
 action "Test Runner" {
   uses = "./.github/test_runner"
   secrets = ["GITHUB_TOKEN"]
-  runs = "entrypoint.sh"
 }
